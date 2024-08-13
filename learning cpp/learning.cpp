@@ -242,10 +242,10 @@ else{
 
 /* vector<int> evennumbers = {2,4,6,8}; 
 int a[] = {10,12,14,16};
-cout<<evennumbers.size()<<endl;
-cout<<evennumbers.capacity()<<endl;
+cout<<evennumbers.size()<<endl;           //size shows the total number of elements being held by the vector
+cout<<evennumbers.capacity()<<endl;       // capacity shows the total storage capacity of the vector, it increases dynamically
 
-evennumbers.assign(a,a+3);
+evennumbers.assign(a,a+3);                //assigning value to the vector from the first three entries of array a 
 for(int i = 0; i<evennumbers.size();i++){
 cout<<evennumbers[i]<<" ";
 }
